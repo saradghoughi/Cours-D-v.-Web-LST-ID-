@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+/* Style des formulaires */
+fieldset {
+    width: 380px;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #777;
+}
+
+legend {
+    font-weight: normal;
+    padding: 0 5px;
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="date"] {
+    width: 180px;
+    padding: 3px 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    padding: 3px 15px;
+    cursor: pointer;
+}
+
+/* Style du tableau */
+table {
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table, th, td {
+    border: 1px solid #333;
+}
+
+table th {
+    background-color: orange;
+    color: black;
+    padding: 6px 12px;
+    text-align: center;
+}
+
+table td {
+    background-color: dodgerblue;
+    color: white;
+    padding: 6px 12px;
+    text-align: center;
+}
+
+/* Boutons d'actions Modifier et Supprimer */
+table td a {
+    color: white;
+    text-decoration: none;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    padding: 2px 8px;
+    background-color: rgba(255, 255, 255, 0.15);
+    display: inline-block;
+}
+
+table td a:hover {
+    background-color: rgba(255, 255, 255, 0.35);
+}
+
+
+/* Boutons d'actions Modifier et Supprimer */
+table td a {
+    color: white;
+    text-decoration: none;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    padding: 2px 8px;
+    background-color: rgba(255, 255, 255, 0.15);
+    display: inline-block;
+}
+
+table td a:hover {
+    background-color: rgba(255, 255, 255, 0.35);
+}
